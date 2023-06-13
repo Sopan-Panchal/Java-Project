@@ -8,6 +8,7 @@ public class Hospital {
 	private String Dr_Reco;
 	private String Specialist;
 	private int WardNo;
+	private int BedNo;
 
 	public Hospital(String patientName,int patientId,String patientDieses  ,String Dr_Reco,String Specialist,int WardNo) {
 		this.patientName=patientName;
